@@ -311,7 +311,7 @@ a.more-info {
     transform: rotate(180deg);
 }
 .pie,
-.c100 .bar,.c100.p25 .fill {
+.c100 .bar,.c100.p25 .fill,.c100.p28 .fill {
     position: absolute;
     border: 0.08em solid #307bbb;
     width: 0.84em;
@@ -389,6 +389,13 @@ a.more-info {
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+.c100.p28 .bar {
+    -webkit-transform: rotate(100.8deg);
+    -moz-transform: rotate(100.8deg);
+    -ms-transform: rotate(100.8deg);
+    -o-transform: rotate(100.8deg);
+    transform: rotate(100.8deg);
+  }
 .c100 {
     position: relative;
     font-size: 120px;
